@@ -181,7 +181,17 @@
 	transition:opacity .2s linear;
 	width:100%; 
 }
-
+#div-estiloBtnGoogle{
+	color:#fff; 
+	text-shadow: rgba(0, 0, 0, 0.25) 0px -1px; 
+	font-family: Helvetica, arial, sans-serif; 
+	position: absolute; 
+	text-align: center; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	vertical-align: top; 
+	width: 83%;
+}
 #div-estiloBtnFacebook{
 	color:#fff;
 	display:inline-block;
@@ -232,7 +242,6 @@
 	margin-top:5px;
 	color:#555;
 	color: #717171; 
-	font-weight: bold;
 	font-size: 11px;
 	width: 250px;
 	text-align: center;
