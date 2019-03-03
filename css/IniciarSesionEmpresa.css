@@ -46,8 +46,105 @@ div-color{
 	min-height:510px;
 	padding:35px 10px;
 }
+
+#fondo1{
+min-height: 400px;
+padding: 20px 10px;	
+}
+
+#fondo2{
+display:block;
+height:45px;
+margin:5px auto;
+width:45px;
+}
+
+#fondo3{
+display: block;
+}
+
+#style5{
+text-align: center; 
+font-weight: bold; 
+color: rgb(204, 204, 204); 
+font-size: 18px; 
+margin: -25px 26px 20px;	
+}
+
+#style6{
+margin: 5px 26px 26px; 
+text-align: center; 
+font-weight: bold; 
+font-size: 28px; 
+color: rgb(51, 51, 51);
+}
+
 #style7{
-    margin:0px auto; 
-    position:relative; 
-    text-align: center;
-    }
+margin:0px auto; 
+position:relative; 
+text-align: center;
+}
+
+#style8{
+margin: 0px auto; 
+width: 268px;
+}
+
+#style9{
+position: relative; 
+margin-bottom: 7px;
+}
+
+#style10{
+margin-bottom:8px
+}
+
+#stylecondiciones{
+color: #717171; 
+font-weight: bold;
+}
+
+#stylebutton{
+border-bottom: 1px solid; 
+color: rgb(239,239,239); 
+margin: 20px 0px 15px -68px; 
+width: 404px; 
+transform: translateY(15px);
+}
+
+#stylebuttoncuentapersonal{
+border: 0px; 
+height: 70px; 
+display: inline-block; 
+border-radius: 4px; 
+-webkit-font-smoothing: antialiased;  
+font-size: 16px; 
+font-weight: 700; 
+outline: none; 
+position: relative; 
+box-shadow: none; 
+cursor: pointer; 
+margin-top: 10px; 
+vertical-align: middle; 
+text-align: center; 
+background-color: rgb(235,235,235); 
+color: rgb(68,68,68); 
+width: 100%; 
+align-items: center;
+justify-content: center; 
+box-sizing: border-box;
+}
+
+#style11{
+bottom: 0px; 
+left: 100%; 
+position: absolute;
+}
+
+#style12{
+position: absolute; 
+left: 0px; 
+bottom: 0px; 
+padding: 25px; 
+text-align: left;
+}
