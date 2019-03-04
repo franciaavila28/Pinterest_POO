@@ -1,0 +1,11 @@
+.Barra{
+	width: 100%;
+	height: 50px;
+	margin:auto;
+}
+#navbarNav{
+	font-size: 15px;
+	font-family: Helvetica, arial, sans-serif; 
+	color:#000;
+	font-weight: bold;
+}
