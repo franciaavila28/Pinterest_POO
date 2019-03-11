@@ -1,27 +1,40 @@
 .Barra{
     width: 100%;
     height: 50px;
-    margin:auto;
+    margin: auto;
+    background-color: #000;
 }
-#navbarNav{
-    font-size: 15px;
-    font-family: Helvetica, arial, sans-serif; 
-    color:#000;
+
+#item2:hover{
+    background-color:#E7E6E8;
+    border-radius: 20px;
+}
+.menu ul {
+    display:flex;
+    list-style:none;
+}
+
+.menu ul ul{
+    display:none;
+    margin-left:40px;
+}
+
+.menu a{
+    display:block;
+    padding:10px;
+    color:#666;
+    text-decoration:none;
     font-weight: bold;
+    font-size: 17px;
 }
+
+.menu a:hover{
+    background:#E7E6E8;
+    border-radius: 15px;
+}
+
 .div-grid{
-    background:#eee;
     font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
-}
-h1{
-    width:90%;
-    background:#fff;
-    padding:0.5em;
-    text-align:center;
-    border-radius:5px;
-    font-size:15px;
-    font-weight:600;
-    margin:0 auto
 }
 .container{
     column-width:210px;
@@ -36,7 +49,7 @@ h1{
     border-radius:5px;
     margin-bottom:1em;
     font-weight:bold;
-    color:#666
+    color:#666;
 }
 .container>div>div{
     padding:1em 1em 1em 1em
@@ -47,4 +60,3 @@ h1{
     object-fit:cover;
     border-radius:5px;
 }
-
