@@ -6,134 +6,137 @@
     <title>Pinterest</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/index.png">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/paginaprincipal.css">
-	<link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/paginaprincipal.css">
+    <link rel="stylesheet" href="css/perfil.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	<div class="Barra">
-		<nav class="navbar navbar-light bg-light">
-  		    <a class="navbar-brand" id="item2" href="Pagina-Principal.html"><img src="img/logo1.png" width="55" height="30" alt=""></a>
-  		    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      				<form class="form-inline">
+		<nav class="navbar navbar-light bg-light" style="display: flex;flex-flow: row nowrap">
+            <a class="navbar-brand" id="item2" href="Pagina-Principal.html"><img src="img/logo1.png" width="55" height="30" alt=""></a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <form class="form-inline">
                 <!--<i class="fas fa-search"></i>-->
                 <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" readonly style="width: 1050px">
-        			</form>
-                <nav class="menu">
-                  <ul>
-                    <li><a href="Pagina-Principal.html">Inicio</a></li>
-                    <li><a href="Siguiendo.html">Siguiendo</a></li>
-                    <li><a href="Perfil.html">Perfil</a></li>
-                    <li><a href="#"><i class="fas fa-comment-dots"></i></a>
-                    	<ul class ="Mensajes">
-                    		<li>
-                    			<div>
-                    				<h6 style="padding: 3px;font-weight: bold;font-size: 17px;">Mensajes</h6><hr><br>
-            						<h2>Comparte ideas con amigos </h2><br>
-            						<button id="btn-mensaje" type="button" class="btn btn-light"><span><a href="#" style="color: #fff; font-weight: bold;text-decoration:none;">Mensaje Nuevo</a></span></button>
-                    			</div>
-                    		</li>
-                    	</ul>
+            </form>
+            <nav class="menu">
+              <ul>
+                <li><a href="Pagina-Principal-Empresa.html">Inicio</a></li>
+                <li><a href="">Siguiendo</a></li>
+                <li><a href="Perfil-Pagina-Empresa.html">Perfil</a></li>
+                <li><a href="#"><i class="fas fa-comment-dots"></i></a>
+                   <ul class ="Mensajes">
+                      <li>
+                         <div>
+                            <h6 style="padding: 3px;font-weight: bold;font-size: 17px;">Mensajes</h6><hr><br>
+                            <h2>Comparte ideas con amigos </h2><br>
+                            <button id="btn-mensaje" type="button" class="btn btn-light"><span><a href="#" style="color: #fff; font-weight: bold;text-decoration:none;">Mensaje Nuevo</a></span></button>
+                        </div>
                     </li>
-                    <li><a href="#"><i class="fas fa-bell"></i></a>
-                    	<ul class ="notificacion">
-                    		<li>
-                    			<div>
-                    				<h6 style="padding: 3px;font-weight: bold;font-size: 17px;">Notificaciones</h6><hr>
-                    			</div>
-                    		</li>
-                    	</ul>
-                    </li>
-                    <li><a href="#"><i class="fas fa-ellipsis-h"></i></a>
-                        <ul class="submenu">
-                            <li><a href="">Editar ajustes</a></li>
-                            <li><a href="">Crear una cuenta para empresa</a></li>
-                            <li><a href="">Obetener ayuda</a></li>
-                            <li><a href="">Ver términos y privacidad</a></li>
-                            <li><a href="">Agregar cuenta</a></li>
-                            <li><a href="">Salir</a>
-                                <h6>Si cierras sesión, no podrás guardar ideas o navegar en tu feed de inicio personalizado.</h6>
-                            </li>
-                        </ul>
-                    </li>
-                  </ul>
-                </nav>
-           </nav>
-  	    </nav>
-	</div>
-	<div id="espacio"></div>
-	<div class="div-grid">
-		<div class="iconos">
-			
-			<div class="user"><i class="fas fa-user-edit"></i></div>
-			<h2>Nombre Usuario</h2>
-			
-            <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Informacion</a></span></button>
-            <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Tableros</a></span></button>
-			<button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Pines</a></span></button>
-			<button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Pines Probados</a></span></button>
-            <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Seguidores</a></span></button>
-            <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Siguiendo</a></span></button>
-			
-		</div>
-		<div id="tableros"></div>
-	</div>
-    
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+                </ul>
+            </li>
+            <li><a href="#"><i class="fas fa-bell"></i></a>
+               <ul class ="notificacion">
+                  <li>
+                     <div>
+                        <h6 style="padding: 3px;font-weight: bold;font-size: 17px;">Notificaciones</h6><hr>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#"><i class="fas fa-ellipsis-h"></i></a>
+            <ul class="submenu">
+                <li><a href="">Editar ajustes</a></li>
+                <li><a href="">Crear una cuenta para empresa</a></li>
+                <li><a href="">Obetener ayuda</a></li>
+                <li><a href="">Ver términos y privacidad</a></li>
+                <li><a href="">Agregar cuenta</a></li>
+                <li><a href="">Salir</a>
+                    <h6>Si cierras sesión, no podrás guardar ideas o navegar en tu feed de inicio personalizado.</h6>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+</nav>
+</nav>
+</div>
+<div id="espacio"></div>
+<div class="div-grid">
+  <div class="iconos">
+     
+     <div class="user"><i class="fas fa-user-edit"></i></div>
+     <h2>Nombre Usuario</h2>
+     
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Informacion</a></span></button>
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Tableros</a></span></button>
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Pines</a></span></button>
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Pines Probados</a></span></button>
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Seguidores</a></span></button>
+     <button id="btn-perfil" type="button" class="btn btn-light"><span><a href="#" style="color: #000; font-weight: bold;text-decoration: none;">Siguiendo</a></span></button>
+     
+ </div>
+ <div id="tableros">
+     <h4>Pines mas recientes <i class="fas fa-arrow-circle-right" id="reciente"></i></h4>
+     <h4>Tableros mas recientes <i class="fas fa-arrow-circle-right" id="reciente"></i></h4>
+ </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Edita tu Tablero</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+                <h5 class="modal-title" id="exampleModalLabel">Edita tu Tablero</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
-                    <table class="table table-striped table-hover">
-                            <tr>
-                                <td>Nombre</td>
-                                <td><input class="form-control" type="text" placeholder="Introduzca el nombre"></td>
-                            </tr>
-                            <tr>
-                                <td>Descripcion</td>
-                                <td>
-                                    <textarea class="form-control" placeholder="¿Cual es el tema de este tablero?" rows="10" cols="20"></textarea>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Categoria</td>
-                                <td>
-                                    <select class="form-control" id="pais">
-                                        <option value="-">¿De que tipo de tablero se trata?</option>
-                                        <option value="1">Arte</option>
-                                        <option value="2">Bodas</option>
-                                        <option value="3">Cabello y Belleza</option>
-                                        <option value="4">Decoracion de casas</option>
-                                        <option value="5">Educacion</option>
-                                        <option value="6">Fotografia</option>
-                                        <option value="7">Humor</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Secreto</td>
-                                <td><input type="checkbox" id="chk-0" value="0"><label for="chk-0">Acepto</label><br>
-                            </tr>
-                            <tr>
-                                <td>Colaboradores</td>
-                                <td><input class="form-control" type="text" placeholder="Introduzca un nombre o correo"></td>
-                            </tr>
-                        </table>
+                <table class="table table-striped table-hover">
+                    <tr>
+                        <td>Nombre</td>
+                        <td><input class="form-control" type="text" placeholder="Introduzca el nombre"></td>
+                    </tr>
+                    <tr>
+                        <td>Descripcion</td>
+                        <td>
+                            <textarea class="form-control" placeholder="¿Cual es el tema de este tablero?" rows="10" cols="20"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Categoria</td>
+                        <td>
+                            <select class="form-control" id="pais">
+                                <option value="-">¿De que tipo de tablero se trata?</option>
+                                <option value="1">Arte</option>
+                                <option value="2">Bodas</option>
+                                <option value="3">Cabello y Belleza</option>
+                                <option value="4">Decoracion de casas</option>
+                                <option value="5">Educacion</option>
+                                <option value="6">Fotografia</option>
+                                <option value="7">Humor</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Secreto</td>
+                        <td><input type="checkbox" id="chk-0" value="0"><label for="chk-0">Acepto</label><br>
+                        </tr>
+                        <tr>
+                            <td>Colaboradores</td>
+                            <td><input class="form-control" type="text" placeholder="Introduzca un nombre o correo"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger">Guardar</button>
+                </div>
             </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-danger">Guardar</button>
-            </div>
-        </div>
         </div>
     </div>
-	<script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
