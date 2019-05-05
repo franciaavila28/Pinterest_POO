@@ -6,12 +6,16 @@
 
 #espacio{
 	width: 100%;
-	height: 50px;
+	height: 90px;
 }
 
-#img-circulo{
-	margin-left: 470px;
+.icono{
+	margin-left: 500px;
+}
+.icono i{
+	font-size: 45px;
 	cursor: pointer;
+	padding: 2px;
 }
 
 #btn-seguir{
