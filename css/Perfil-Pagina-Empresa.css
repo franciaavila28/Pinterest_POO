@@ -1,0 +1,106 @@
+.iconos{
+	margin-left: 400px;
+	width: 700px;
+}
+.iconos i{
+	font-size: 30px;
+	cursor: pointer;
+	padding: 10px;
+	color:#666;
+}
+
+.iconos i:hover{
+	background:#E7E6E8;
+    border-radius: 15px;
+}
+.user{	
+	max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.user i{
+	max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+	
+#espacio{
+	width: 10%;
+	height: 100px;
+}
+#btn-perfil{
+	border-radius: 15px;
+}
+#tableros{
+	margin-left: 200px;
+	width: 1000px;
+	height: 500px;
+}
+
+#pin{
+	width: 100px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 2px;
+}
+#pin2{
+	width: 100px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+}
+#pin3{
+	width: 90px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+}
+#pin4{
+	width: 100px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+}
+#pin5{
+	width: 100px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+}
+#pin6{
+	width: 90px;
+	height: 45%;
+	background-color: #e7e6e7;
+	display: inline-block;
+	border-radius: 10px;
+}
+.imgn{
+	width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+#info{
+	width: 250px;
+	height: 70px;
+	display: inline-block;
+	color:#666;
+}
+#info h3{
+	font-weight: bold;
+}
+#editar{
+	width: 45px;
+	height: 70px;
+	display: inline-block;
+}
